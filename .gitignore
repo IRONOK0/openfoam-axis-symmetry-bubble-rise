@@ -1,0 +1,17 @@
+# Time-step result folders (except 0)
+[1-9]*/
+[1-9]*.[0-9]*/
+
+# Parallel processor folders
+processor*/
+
+# Generated mesh (blockMesh se regenerate ho jayega)
+constant/polyMesh/
+
+# Logs and post-processing
+log.*
+postProcessing/
+*.foam
+
+# Windows metadata files
+*:Zone.Identifier
